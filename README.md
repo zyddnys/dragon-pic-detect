@@ -12,14 +12,16 @@ if det.is_dragon(img) :
 else :
     print('正常')
 ```
-# Confusion matrix
+# Performance
 Tuned for zero false positive.
-### DragonDetector
+## DragonDetector
+2.4 images/sec
 | Confusion matrix   |      Positive      |  Negative |
 |----------|:-------------:|------:|
 | Positive |  38 | 20 |
 | Negative |    0   |   194 |
-### DragonDetectorFast
+## DragonDetectorFast
+37.45 images/sec
 | Confusion matrix   |      Positive      |  Negative |
 |----------|:-------------:|------:|
 | Positive |  32 | 26 |
